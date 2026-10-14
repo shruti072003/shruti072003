@@ -14,7 +14,7 @@
 
 📫 Reach me at **shruti072003@gmail.com**
 
-🔗 [LinkedIn](https://www.linkedin.com/in/shruti-tewaney/) · [Resume](YOUR_RESUME_LINK)
+🔗 [LinkedIn](https://www.linkedin.com/in/shruti-tewaney/)
 
 ---
 
