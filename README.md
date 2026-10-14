@@ -1,43 +1,53 @@
 # Hey, I'm Shruti 👋
 
-💻 Software engineer who likes figuring out how things work under the hood.
+💻 Software engineer who enjoys building things that work and figuring out why they don't.
 
-🤖 Currently exploring **Agentic AI, LLMs, and distributed systems** and occasionally convincing AI models to behave themselves.
+⚙️ I've worked on backend systems processing 5,000+ transactions a day, optimized databases and distributed workloads, and built services that scale across multiple customers.
 
-🎓 MS Computer Science @ University of Chicago · Class of 2026
+🤖 Lately, I've also been building LLM-powered applications, experimenting with agentic workflows, and figuring out how to make AI systems more reliable in production.
 
-🔧 Mostly building with Python, Go, TypeScript, PostgreSQL, and AWS.
+🎓 M.S. Computer Science @ University of Chicago · December 2026
 
-🌱 Currently learning how to scale AI systems.
+🛠️ **My toolbox:** Python · Go · C · PHP · TypeScript · PostgreSQL · Redis · AWS · Docker 
 
-👯 Always happy to collaborate on backend, AI, and open-source projects.
+👯 Always up for collaborating on backend engineering, distributed systems, developer tools, or AI projects.
 
-📫 Reach me at **shruti072003@gmail.com**
+📫 **Reach me:** shruti072003@gmail.com
 
 🔗 [LinkedIn](https://www.linkedin.com/in/shruti-tewaney/)
 
 ---
 
-### 🛠️ Things I Build With
+### 🚀 Some Things I've Built
 
-**Languages:** Python · Go · TypeScript · SQL
+**[AskSQL](https://github.com/shruti072003/ask-sql)** · *Making databases easier to talk to*
 
-**Backend & Cloud:** FastAPI · Flask · PostgreSQL · Redis · AWS · Docker
+What if you could ask your database a question in plain English? Built a natural-language-to-SQL pipeline with schema retrieval, few-shot examples, and read-only query validation.
 
-**AI & ML:** LangChain · RAG · LLM APIs · Agentic AI
+`Python` `PostgreSQL` `LangChain` `ChromaDB`
+
+**[Gene Annotation Service](https://github.com/shruti072003/gene-annotation-service)** · *Because not every job should run inside an API request*
+
+An asynchronous genomic data processing service using AWS queues, serverless workflows, and tiered storage to handle compute-heavy jobs without blocking requests.
+
+`Python` `Flask` `AWS` `Docker`
+
+**Backend Engineering** · *The stuff that keeps things running*
+
+At InvuPOS, I worked on REST APIs powering 5,000+ daily transactions, tuned PostgreSQL queries and Redis caching to reduce latency, and built distributed rate limiting across autoscaled EC2 instances.
+
+**AI Systems** · *Making the unpredictable a little more predictable*
+
+At Valoi AI, I worked on failure recovery, resumable video-generation workflows, concurrency-safe credit reservations, and automated quality evaluations for LLM-generated videos.
 
 ---
 
-### 🚀 A Few Things I've Built
+### 🔍 Currently Exploring
 
-- **[AskSQL](https://github.com/shruti072003/ask-sql)** — Ask questions in plain English. Get SQL back. Hopefully without asking an LLM to read your entire database schema.
+- Distributed systems and backend architecture
+- Cloud infrastructure and reliable asynchronous processing
+- Agentic AI, LLM applications, and evaluation
 
-- **[Gene Annotation Service](https://github.com/shruti072003/gene-annotation-service)** — Because compute-heavy jobs, cloud storage, and asynchronous processing are better when they don't all live in the same place.
+⚡ **My engineering philosophy:** Make it work, make it reliable, then make it faster.
 
-- **[Parallel Barnes-Hut](https://github.com/shruti072003/parallel-barnes-n-hut)** — Making particles interact faster with Go, quadtrees, and a little concurrency magic.
-
----
-
-⚡ **Fun fact:** I enjoy debugging systems almost as much as I enjoy finding out why they broke in the first place.
-
-*Currently looking for full-time software engineering opportunities starting January 2027.*
+*Graduating December 2026 · Open to full-time Software Engineering opportunities starting January 2027.*
