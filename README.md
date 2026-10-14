@@ -1,43 +1,43 @@
-## Shruti Tewaney
+# Hey, I'm Shruti 👋
 
-Software engineer — backend, cloud, and applied AI.
-M.S. Computer Science, University of Chicago, December 2026. Open to full-time roles from January 2027.
+💻 Software engineer who likes figuring out how things work under the hood.
 
-Two years on backend teams before the master's: the Laravel/PHP REST services behind 5,000+
-point-of-sale transactions a day across 50+ retailers at InvuPOS, where I traced 850ms response
-times to repeated record lookups and brought them to 595ms with query tuning and Redis caching,
-and built distributed rate limiting on a shared Redis store so quotas held across autoscaled
-EC2 instances. Earlier, I helped split a Laravel monolith into five services at ZTech.
+🤖 Currently exploring **Agentic AI, LLMs, and distributed systems** and occasionally convincing AI models to behave themselves.
 
-Most recently at Valoi AI I worked on the video generation pipeline — classifying failures by
-whether they'd repeat and rewriting blocked prompts through the Gemini API to cut failed jobs
-~70%, building resumable generation for 40K-word books, and writing automated quality benchmarks
-that surfaced a 12 dB loudness gap across every output.
+🎓 MS Computer Science @ University of Chicago · Class of 2026
 
-**Python · Go · TypeScript · PostgreSQL · Redis · AWS · Docker · FastAPI · Flask · LangChain**
+🔧 Mostly building with Python, Go, TypeScript, PostgreSQL, and AWS.
 
----
+🌱 Currently learning how to scale AI systems.
 
-### Projects
+👯 Always happy to collaborate on backend, AI, and open-source projects.
 
-**[ask-sql](https://github.com/shruti072003/ask-sql)** — Natural language to SQL. A RAG pipeline
-indexes the database schema in ChromaDB and retrieves only the tables a question needs, cutting
-token use 60% against passing the full schema. Few-shot retrieval of similar queries improved
-multi-table accuracy 35%. A validation layer parses generated SQL and rejects anything that isn't
-a read-only SELECT. `Python` `LangChain` `ChromaDB` `FastAPI` `PostgreSQL`
+📫 Reach me at **shruti072003@gmail.com**
 
-**[gene-annotation-service](https://github.com/shruti072003/gene-annotation-service)** —
-Asynchronous genomic annotation on AWS. A Flask API on EC2 is decoupled from compute-heavy
-annotation jobs by SQS. Results older than three days tier from S3 to Glacier through Step
-Functions, cutting storage cost 80%, with SNS and Lambda restoring on demand. Web, annotator,
-and utility tiers run in Docker, isolated across VPC subnets. `Python` `Flask` `AWS` `Docker`
-
-**[parallel-barnes-n-hut](https://github.com/shruti072003/parallel-barnes-n-hut)** — Barnes-Hut
-N-body simulation in Go. A quadtree approximates distant particle clusters as a single center of
-mass, taking force computation from O(n²) to O(n log n). Parallelized across goroutines with
-channel-based work distribution, reaching ~3x speedup on 8 threads, benchmarked on SLURM.
-`Go` `Concurrency` `HPC`
+🔗 [LinkedIn](https://www.linkedin.com/in/shruti-tewaney/) · [Resume](YOUR_RESUME_LINK)
 
 ---
 
-shruti072003@gmail.com · [LinkedIn](https://www.linkedin.com/in/shruti-tewaney/) · Chicago, IL
+### 🛠️ Things I Build With
+
+**Languages:** Python · Go · TypeScript · SQL
+
+**Backend & Cloud:** FastAPI · Flask · PostgreSQL · Redis · AWS · Docker
+
+**AI & ML:** LangChain · RAG · LLM APIs · Agentic AI
+
+---
+
+### 🚀 A Few Things I've Built
+
+- **[AskSQL](https://github.com/shruti072003/ask-sql)** — Ask questions in plain English. Get SQL back. Hopefully without asking an LLM to read your entire database schema.
+
+- **[Gene Annotation Service](https://github.com/shruti072003/gene-annotation-service)** — Because compute-heavy jobs, cloud storage, and asynchronous processing are better when they don't all live in the same place.
+
+- **[Parallel Barnes-Hut](https://github.com/shruti072003/parallel-barnes-n-hut)** — Making particles interact faster with Go, quadtrees, and a little concurrency magic.
+
+---
+
+⚡ **Fun fact:** I enjoy debugging systems almost as much as I enjoy finding out why they broke in the first place.
+
+*Currently looking for full-time software engineering opportunities starting January 2027.*
